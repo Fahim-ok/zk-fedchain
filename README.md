@@ -210,10 +210,7 @@ are not re-aggregated.
 
 | Member | Responsibility |
 |--------|----------------|
-| Md Fahim Ul Islam (lead) | Implementation of the FL client, aggregator and ZK integration; literature review; meetings |
-| Faisal Al-Qahtani | Solidity contracts, Hardhat tests, Sepolia deployment |
-| Sri Vignesh Madasu | Circom circuit, trusted setup, verifier export, proving scripts |
-| Meshari Alqahtani | IPFS and web3.py integration, attack simulation, measurements |
+| Md Fahim Ul Islam (lead) | Smart contracts and interfaces, Hardhat tests and deployment script, Circom circuit and trusted-setup script, verifier integration, Python off-chain nodes (client, aggregator, challenger, IPFS and web3.py), documentation, literature review, meetings |
 
 ## 9. License
 

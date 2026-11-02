@@ -1,0 +1,11 @@
+# Off-chain nodes (client, aggregator, challenger). Python 3.10+
+numpy>=1.26
+web3>=6.15
+requests>=2.31
+python-dotenv>=1.0
+
+# Local LoRA fine-tuning (client)
+torch>=2.2
+transformers>=4.40
+peft>=0.10
+datasets>=2.19

@@ -1,0 +1,25 @@
+{
+  "name": "zk-fedchain",
+  "version": "0.1.0",
+  "description": "CSE 540 Group 30: blockchain-governed federated fine-tuning with zero-knowledge verified updates",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "circuit:build": "bash circuits/build_circuit.sh"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "circomlib": "^2.0.5",
+    "dotenv": "^16.4.5",
+    "snarkjs": "^0.7.4"
+  }
+}
